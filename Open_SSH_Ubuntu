@@ -4,5 +4,5 @@ sudo apt upgrade -y
 sudo apt install ssh -y
 sudo sh -c 'echo root:Vilas123 | chpasswd'
 sudo mv /etc/ssh/sshd_config /etc/ssh/sshd_config.bk
-sudo wget -P /etc/ssh/ https://github.com/chucuoi1/Vilas/raw/main/sshd_config
+sudo wget -P /etc/ssh/ https://github.com/chucuoi1/SSH/raw/main/sshd_config
 sudo systemctl restart ssh
